@@ -18,7 +18,7 @@ export default function NewContactModal({ closeModal }) {
         <>
             <Modal.Header>
             <h5 class="modal-title">Create Contact</h5>
-            <Button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></Button>
+            <Button type="button" className="btn-close" onClick={closeModal}></Button>
             </Modal.Header>
             <Modal.Body>
                 <Form onSubmit={handleSubmit}>
