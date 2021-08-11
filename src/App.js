@@ -1,10 +1,15 @@
+import React, { useState } from "react"
 import './App.css';
+import Login from "./components/Login"
 
 function App() {
+  const [id, setId] = useState()
+
   return (
-    <div>
-     Hello World
-    </div>
+    <>
+      {id}
+      <Login onIdSubmit={setId} />
+    </>
   );
 }
 
