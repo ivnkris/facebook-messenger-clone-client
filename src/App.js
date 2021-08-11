@@ -12,7 +12,7 @@ function App() {
   const dashboard = (
     <ContactsProvider>
       <ConversationsProvider>
-      <Dashboard id={id} />
+        <Dashboard id={id} />
       </ConversationsProvider>
     </ContactsProvider>
   )

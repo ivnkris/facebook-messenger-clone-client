@@ -17,7 +17,7 @@ export default function NewConversationModal({ closeModal }) {
 
     function handleCheckboxChange(contactId) {
         setSelectedContactIds(prevSelectedContactIds => {
-            if(prevSelectedContactIds.includes(contactId)) {
+            if (prevSelectedContactIds.includes(contactId)) {
                 return prevSelectedContactIds.filter(prevId => {
                     return contactId !== prevId
                 })
