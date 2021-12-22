@@ -17,11 +17,6 @@ npm install
 
 npm run start //both server and client
 ```
-To test locally open Google Chrome with Cors disabled using the following script on mac OS
-
-```
-open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security
-```
 
 Open http://localhost:3000 in Chrome and open an incognito window with same address to test messaging between two participants
 
